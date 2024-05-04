@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      //Aqui se agrega el ColorChangeWidget, que es un Scaffold, tambien es un Widget Stateful, y contiene todo el codigo necesario para hacer funcionar el cambio de color
       home: ColorChangeWidget(),
     );
   }
